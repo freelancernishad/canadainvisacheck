@@ -65,7 +65,7 @@ table.informaionTable tr td {
 
         <h5 class="text-uppercase">{{ $visaCheck->name }}</h5>
         <div class="clientImage position-relative">
-            <img style="width: 150px; border-radius: 10px;" src="{{ asset('images/1700500688857.jpg') }}" alt="">
+            <img style="width: 150px; border-radius: 10px;" src="{{ asset('images/'.$visaCheck->image) }}" alt="">
             <img class="statusImage" src="{{ asset('images/VERIFY_APP-removebg-preview-5.png') }}" alt="">
         </div>
 
