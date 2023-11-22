@@ -3,9 +3,9 @@
 @section('content')
 <section id="hero">
     <div class="hero-container">
-        <div class="row w-100 mx-auto aaaaaaaaaaa">
-            <div class="col-md-11 row mx-auto">
-                <div class="col-md-6 col-sm-12">
+        <div class=" w-100 mx-auto aaaaaaaaaaa">
+            <div class=" row mx-bog-scn">
+                <div class="col-md-6 col-sm-12 btn-text-dream">
                     <h1 class="text-white">Fulfill Your Dream</h1>
                     <p class="text-white">We help people to apply for a visa in Canada. We handle all the hassles of
                         submitting
@@ -13,8 +13,8 @@
                     </p>
                     <button class="contact-btn">CONTACT US</button>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <form class="search-box">
+                <div class="col-md-6 search-box-conatain">
+                    <div class="search-box">
                         <h3 class="text-center">Check Your Visa Stutas </h3>
                         <div style="
                         background-color: #fff;
@@ -27,7 +27,7 @@
                                 </button>
                             </div>
                         </div>
-                    </form>
+                    </div>
 
 
 
@@ -38,35 +38,32 @@
 </section>
 
 
-<section class="mx-auto container">
-    <div class="row w-100 mx-auto my-5">
-        <div class="col-md-6 row ">
-            <div class="d-flex flex-column col-md-6 my-auto" style="
-            margin-right: -81px;
-        ">
-                <img class="floating-img"
+<section class="mx-auto">
+    <div class="row mx-bog-scn my-5">
+        <div class="col-md-6 row mx-auto">
+            <div class="d-flex flex-column col-md-6 new-class" style=" ">
+                <img class="floating-img img-ad"
                     src="{{ asset('images/MexicansinCanada-1.png') }}" alt=""
-                    style="width: 220px;height: 150;border-radius: 11px">
+                    style="">
 
-                <img class="floating-img"
-                    src="{{ asset('images/Team-1-1.png') }}" alt=""
-                    style="width: 220px;height: 150;border-radius: 11px">
+                <img class="floating-img img-ad"
+                    src="{{ asset('images/Team-1-1.png') }}" alt="" style="">
 
             </div>
-            <div class="d-flex flex-column col-md-6">
-                <img class="floating-img"
-                    src="{{ asset('images/MexicansinCanada-1.png') }}" alt=""
-                    style="width: 200px;height: 250;border-radius: 11px">
+            <div class="d-flex flex-column col-md-6 new-class">
+                <img class="floating-img img-ad"
+                    src="{{ asset('images/MexicansinCanada-1.png') }}" alt="">
 
-                <img class="floating-img"
-                    src="{{ asset('images/Team-1-1.png') }}" alt=""
-                    style="width: 200px;height: 230;border-radius: 11px">
+                <img class="floating-img img-ad"
+                    src="{{ asset('images/Team-1-1.png') }}" alt="">
 
             </div>
 
         </div>
 
-        <div class="col-md-6">
+
+
+        <div class="col-md-6 sm-logo-center">
             <span class="fs-4 fw-bolder text-warning">........</span>
             <h1 class="fw-bold mb-4" style="color: #0f3186;">We Are Dedicated To <br> Shaping The Dreams Of <br>
                 Individuals
@@ -95,7 +92,7 @@
 </section>
 
 
-<section class="row w-100 mx-auto my-5 container">
+<section class="row mx-bog-scn my-5">
 
     <div class="col-md-6">
         <span class="fs-4 fw-bolder text-warning">........</span>
@@ -106,7 +103,7 @@
         <p>Nascetur sed cursus habitasse eleifend montes torquent porta natoque, dis sollicitudin lobortis ad
             dignissim mauris netus, fermentum
         </p>
-        <div>
+        <div class="my-4">
             <i class="fa-brands fa-facebook-f social-icon"></i>
             <i class="fa-brands fa-twitter social-icon"></i>
             <i class="fa-brands fa-youtube social-icon"></i>
@@ -149,7 +146,6 @@
     </div>
 
 </section>
-
 
 <script>
 
