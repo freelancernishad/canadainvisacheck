@@ -9,30 +9,13 @@ use App\Models\VisaCheckDocument;
 class VisaCheckController extends Controller
 {
 
-    public function findByPassportNo(Request $request)
+
+    public function __construct()
     {
-        $passportNo = $request->s;
-        if ($passportNo) {
-            $visaCheck = VisaCheck::where('passport_no', $passportNo)->get();
-            return view('visa-status.list', compact('visaCheck','passportNo'));
-        } else {
-            $passportNo='';
-            $visaCheck = VisaCheck::orderBy('id', 'desc')->get();
-            return view('visa-status.list', compact('visaCheck','passportNo'));
-            // return redirect()->route('visa-status.list')->with('error', 'Visa not found with Passport Number: ' . $passportNo);
-        }
+        $this->middleware('auth');
     }
 
-    public function showpass(Request $request,$passport_no)
-    {
-        $passportNo = $passport_no;
-       $visaCheck = VisaCheck::with('visaCheckDocuments')->where('passport_no', $passportNo)->first();
-        return view('visa-status.show', compact('visaCheck'));
-    }
-
-
-
-
+   
 
 
 

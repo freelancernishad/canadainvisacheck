@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FrentendController;
 use App\Http\Controllers\VisaCheckController;
 
 /*
@@ -38,8 +39,8 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
-Route::get('visa-status', [VisaCheckController::class, 'findByPassportNo']);
-Route::get('visa-status/{passport_no}', [VisaCheckController::class, 'showpass']);
+Route::get('visa-status', [FrentendController::class, 'findByPassportNo']);
+Route::get('visa-status/{passport_no}', [FrentendController::class, 'showpass']);
 
 
 Route::resource('visa_checks', VisaCheckController::class);
