@@ -41,22 +41,22 @@
 <section class="mx-auto">
     <div class="row mx-bog-scn my-5">
         <div class="col-md-6 row mx-auto">
-            <div class="d-flex flex-column col-md-6 new-class" style=" ">
+            <div class="d-flex flex-column col-md-6" style=" ">
                 <img class="floating-img img-ad"
                 src="{{ asset('images/MexicansinCanada-1.png') }}" alt=""
                 style="">
             </div>
-            <div class="d-flex flex-column col-md-6 new-class" style=" ">
+            <div class="d-flex flex-column col-md-6" style=" ">
 
                 <img class="floating-img img-ad"
                 src="{{ asset('images/Team-1-1.png') }}" alt="" style="">
             </div>
 
-            <div class="d-flex flex-column col-md-6 new-class">
+            <div class="d-flex flex-column col-md-6">
                 <img class="floating-img img-ad"
                 src="{{ asset('images/MexicansinCanada-1.png') }}" alt="">
             </div>
-                <div class="d-flex flex-column col-md-6 new-class">
+                <div class="d-flex flex-column col-md-6">
 
                 <img class="floating-img img-ad"
                     src="{{ asset('images/Team-1-1.png') }}" alt="">
