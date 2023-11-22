@@ -1,51 +1,48 @@
 @extends('layouts.layout')
 
 @section('content')
-
-<section style="background-color: #860F0F;padding: 134px 0px;" class="hero w-100 mx-auto">
-    <h1 style="
-    font-size: 73px;
-    color: white;
-    font-weight: bold;
-" class="text-center">Contact US</h1>
-    <p class="fs-5 text-center text-white">Home /Contact US</p>
+<section style="background-color: #860F0F;" class="hero w-100 mx-auto">
+    <div style="padding: 100px 0px; margin-top: 20px;">
+        <h1 style="
+        font-size: 73px;margin-top: 52px;
+        color: white;
+        font-weight: bold;
+        " class="text-center">Contact US</h1>
+        <p class="fs-5 text-center text-white">Home /Contact US</p>
+    </div>
 </section>
+
 
 <section class="d-flex flex-wrap gap-5 justify-content-around my-5">
     <div class="px-5 py-3 shadow">
-        <div class="align-items-center d-flex gap-3">
-            <i class="fs-1 fa-regular fa-comment-dots"></i>
+        <div class="align-items-center d-flex gap-3"><i class="fs-1 fa-regular fa-comment-dots"></i>
             <div class="text-start">
-                <h3> 999-123-1234 </h3>
-                <p> Call Anytime</p>
+                <h3>999-123-1234 </h3>
+                <p>Call Anytime</p>
             </div>
         </div>
-
     </div>
     <div class="px-5 py-3 shadow">
-        <div class="align-items-center d-flex gap-3">
-            <i class="fs-1 fa-regular fa-comment-dots"></i>
+        <div class="align-items-center d-flex gap-3"><i class="fs-1 fa-regular fa-comment-dots"></i>
             <div class="text-start">
-                <h3> 999-123-1234 </h3>
-                <p> Call Anytime</p>
+                <h3>999-123-1234 </h3>
+                <p>Call Anytime</p>
             </div>
         </div>
-
     </div>
     <div class="px-5 py-3 shadow">
-        <div class="align-items-center d-flex gap-3">
-            <i class="fs-1 fa-regular fa-comment-dots"></i>
+        <div class="align-items-center d-flex gap-3"><i class="fs-1 fa-regular fa-comment-dots"></i>
             <div class="text-start">
-                <h3> 999-123-1234 </h3>
-                <p> Call Anytime</p>
+                <h3>999-123-1234 </h3>
+                <p>Call Anytime</p>
             </div>
         </div>
-
     </div>
-
 </section>
 
-<section class="row w-100 mx-auto my-5">
+
+
+<section class="row mx-bog-scn my-5">
 
     <div class="col-md-6">
         <span class="fs-4 fw-bolder text-warning">........</span>
@@ -56,7 +53,7 @@
         <p>Nascetur sed cursus habitasse eleifend montes torquent porta natoque, dis sollicitudin lobortis ad
             dignissim mauris netus, fermentum
         </p>
-        <div>
+        <div class="my-4">
             <i class="fa-brands fa-facebook-f social-icon"></i>
             <i class="fa-brands fa-twitter social-icon"></i>
             <i class="fa-brands fa-youtube social-icon"></i>
@@ -98,14 +95,6 @@
         </form>
     </div>
 
-</section>
-
-<section>
-    <div id="map-container">
-        <iframe class="mapp" id="map-iframe"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224086.4550304105!2d-74.00597452234502!3d40.71277628264011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1617385647201!5m2!1sen!2sca"
-            frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
 </section>
 
 
