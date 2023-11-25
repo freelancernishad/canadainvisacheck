@@ -2,7 +2,7 @@
 
 @section('content')
 <section style="background-color: #860F0F;" class="hero w-100 mx-auto">
-    <div style="padding: 100px 0px; margin-top: 20px;">
+    <div style="padding: 190px 0px; margin-top: 20px;">
         <h1 style="
         font-size: 73px;margin-top: 52px;
         color: white;
@@ -98,17 +98,6 @@
 
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        var stickyMenu = document.getElementById("sticky-menu");
-
-        window.addEventListener("scroll", function () {
-            if (window.scrollY > 50) {
-                stickyMenu.style.top = "0";
-            } else {
-                stickyMenu.style.top = "50px";
-            }
-        });
-    });
 
 
     document.addEventListener('DOMContentLoaded', function () {

@@ -383,11 +383,19 @@ input[type=number]:focus,
         margin: 0;
     }
 
+    .textalign {
+        text-align: center;
+    }
     .contact-info {
         position: absolute;
-        left: 40px;
+        left: 12px;
 
     }
+
+    /* .aaaaaaaaaaa {
+        margin-top: 150vh;
+
+    } */
 }
 
 
@@ -395,9 +403,11 @@ input[type=number]:focus,
 @media (min-width:1025px) {
     .contact-info {
         position: absolute;
-        left: 49px;
+        left: 14px;
     }
-
+    .textalign {
+        text-align: left;
+    }
     .mx-bog-scn {
         margin-left: 50px;
         margin-right: 50px;

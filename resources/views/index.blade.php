@@ -95,7 +95,9 @@
 <section class="row mx-bog-scn my-5">
 
     <div class="col-md-6">
-        <span class="fs-4 fw-bolder text-warning">........</span>
+        <div class="textalign">
+            <span class="fs-4 fw-bolder text-warning">........</span>
+        </div>
         <h1 class="fw-bold mb-4" style="color: #0f3186;">Have Any Questions? <br />
             Let’s Start To Talk
         </h1>
