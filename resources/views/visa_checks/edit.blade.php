@@ -6,7 +6,7 @@
     <div class="container">
         <h2 class="my-4">Edit Visa Check</h2>
 
-        <form action="{{ route('visa_checks.update', $visaCheck->id) }}" method="POST">
+        <form action="{{ route('visa_checks.update', $visaCheck->id) }}" method="POST" enctype="multipart/form-data">
             @csrf
             @method('PUT')
 
