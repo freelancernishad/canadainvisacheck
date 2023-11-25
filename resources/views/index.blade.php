@@ -5,7 +5,7 @@
     <div class="hero-container">
         <div class=" w-100 mx-auto aaaaaaaaaaa">
             <div class=" row mx-bog-scn">
-                <div class="col-md-6 col-sm-12 btn-text-dream">
+                <div class="col-md-6 col-sm-12 btn-text-dream float-from-right-animation">
                     <h1 class="text-white">Fulfill Your Dream</h1>
                     <p class="text-white">We help people to apply for a visa in Canada. We handle all the hassles of
                         submitting
@@ -41,22 +41,18 @@
 <section class="mx-auto">
     <div class="row mx-bog-scn my-5">
         <div class="col-md-6 row mx-auto">
-            <div class="d-flex flex-column col-md-6" style=" ">
+            <div class="d-flex flex-column col-md-6 new-class" style=" ">
                 <img class="floating-img img-ad"
-                src="{{ asset('images/MexicansinCanada-1.png') }}" alt=""
-                style="">
-            </div>
-            <div class="d-flex flex-column col-md-6" style=" ">
+                    src="{{ asset('images/MexicansinCanada-1.png') }}" alt=""
+                    style="">
 
                 <img class="floating-img img-ad"
-                src="{{ asset('images/Team-1-1.png') }}" alt="" style="">
-            </div>
+                    src="{{ asset('images/Team-1-1.png') }}" alt="" style="">
 
-            <div class="d-flex flex-column col-md-6">
-                <img class="floating-img img-ad"
-                src="{{ asset('images/MexicansinCanada-1.png') }}" alt="">
             </div>
-                <div class="d-flex flex-column col-md-6">
+            <div class="d-flex flex-column col-md-6 new-class">
+                <img class="floating-img img-ad"
+                    src="{{ asset('images/MexicansinCanada-1.png') }}" alt="">
 
                 <img class="floating-img img-ad"
                     src="{{ asset('images/Team-1-1.png') }}" alt="">
@@ -150,6 +146,7 @@
     </div>
 
 </section>
+
 
 <script>
 

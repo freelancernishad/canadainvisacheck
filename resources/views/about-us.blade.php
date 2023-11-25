@@ -1,15 +1,25 @@
 @extends('layouts.layout')
 
 @section('content')
-
 <section style="background-color: #860F0F;" class="hero w-100 mx-auto">
-    <div style="padding: 100px 0px; margin-top: 18px;">
+    <div style="padding: 100px 0px; margin-top: 20px;">
         <h1 style="
-    font-size: 73px;margin-top: 52px;
-    color: white;
-    font-weight: bold;
-    " class="text-center">ABOUT US</h1>
+        font-size: 73px;margin-top: 52px;
+        color: white;
+        font-weight: bold;
+        " class="text-center">ABOUT US</h1>
         <p class="fs-5 text-center text-white">Home /About US</p>
+        <div class="text-center">
+            <div class=" d-flex justify-content-center gap-1 mb-2">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -33,7 +43,6 @@
                     src="{{ asset('images/Team-1-1.png') }}" alt="">
 
             </div>
-
 
         </div>
 
@@ -63,28 +72,69 @@
 
 </section>
 
+<section style="background-color: #20408F;" class="fw-bold mx-auto my-5 row text-white w-100">
+    <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
+        style="font-size: 88px; line-height: 55px;">
+        <span id="experienceId" class="number ">0</span> + <br>
+        <span style="font-size: 16px;"> Years of Experience</span>
+    </div>
+    <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
+        style="font-size: 88px; line-height: 55px;">
+        <span id="movementsId" class="number ">0</span> <br>
+        <span style="font-size: 16px;"> No of Movements </span>
+    </div>
 
-<section style="background-color: #20408F;" class="fs-3 fw-bold mx-auto my-5 row text-white w-100">
-    <div class="text-center about-work py-2 col-md-3 col-sm-6 col-6">
-        <span class="number">25</span> + <br>
-        Years of Experience
+    <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
+        style="font-size: 88px; line-height: 55px;">
+        <span id="clientsId" class="number ">0</span> <br>
+        <span style="font-size: 16px;"> Our Clients </span>
     </div>
-    <div class="text-center about-work py-2 col-md-3 col-sm-6 col-6">
-        <span class="number">499</span> <br>
-        No of Movements
-    </div>
-
-    <div class="text-center about-work py-2 col-md-3 col-sm-6 col-6">
-        <span class="number">146</span> <br>
-        Our Clients
-    </div>
-    <div class="text-center about-work py-2 col-md-3 col-sm-6 col-6">
-        <span class="number">100%</span> <br>
-        Customer Satisfaction
+    <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
+        style="font-size: 88px; line-height: 55px;">
+        <span id="satisfactionId" class="number ">0</span>% <br>
+        <span style="font-size: 16px;"> Customer Satisfaction </span>
     </div>
 </section>
 
 
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var stickyMenu = document.getElementById("sticky-menu");
 
+        window.addEventListener("scroll", function () {
+            if (window.scrollY > 50) {
+                stickyMenu.style.top = "0";
+            } else {
+                stickyMenu.style.top = "50px";
+            }
+        });
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        function startCounter(elementId, targetValue, step, interval) {
+            let currentCount = 0;
+            const element = document.getElementById(elementId);
+            const updateCounter = function () {
+                if (currentCount <= targetValue) {
+                    element.innerText = currentCount;
+                    currentCount += step;
+                }
+            };
+            setInterval(updateCounter, interval);
+            // console.log(interval);
+        }
+
+        startCounter('experienceId', 25, 1, 100);
+        startCounter('movementsId', 499, 1, 0);
+        startCounter('clientsId', 146, 1, 10);
+        startCounter('satisfactionId', 100, 1, 20);
+    });
+
+
+
+
+
+</script>
 
 @endsection

@@ -1,8 +1,9 @@
 @extends('layouts.layout')
 
 @section('content')
+
 <section style="background-color: #860F0F;" class="hero w-100 mx-auto">
-    <div style="padding: 100px 0px; margin-top: 18px;">
+    <div style="padding: 100px 0px; margin-top: 20px;">
         <h1 style="
         font-size: 73px;margin-top: 52px;
         color: white;
@@ -13,33 +14,51 @@
 </section>
 
 
-<section class="d-flex flex-wrap gap-5 justify-content-around my-5">
-    <div class="px-5 py-3 shadow">
-        <div class="align-items-center d-flex gap-3"><i class="fs-1 fa-regular fa-comment-dots"></i>
-            <div class="text-start">
-                <h3>999-123-1234 </h3>
-                <p>Call Anytime</p>
+<section class="mx-bog-scn row my-5">
+    <div class="col-md-4 col-sm-12 my-2">
+        <div class=" align-items-center d-flex gap-3  rounded p-4 shadow">
+            <i class="icon-bg fs-1 fa-regular fa-comment-dots"></i>
+            <div class="text-start text-align">
+                <h3 style="
+        font-size: 19px;
+        margin: 0;
+    ">999-123-1234 / 999-123-1234</h3>
+                <p style="
+        margin: 0;
+        color: #64646b;
+    ">Call Anytime</p>
             </div>
         </div>
     </div>
-    <div class="px-5 py-3 shadow">
-        <div class="align-items-center d-flex gap-3"><i class="fs-1 fa-regular fa-comment-dots"></i>
+    <div class="col-md-4 col-sm-12 my-2">
+        <div class=" align-items-center d-flex gap-3 rounded p-4 shadow"><i
+                class="icon-bg fs-1 fa-regular fa-comment-dots"></i>
             <div class="text-start">
-                <h3>999-123-1234 </h3>
-                <p>Call Anytime</p>
+                <h3 style="
+        font-size: 19px;
+        margin: 0;
+    ">Info@Fxmovers.Com</h3>
+                <p style="
+        margin: 0;
+        color: #64646b;
+    ">Email Us</p>
             </div>
         </div>
     </div>
-    <div class="px-5 py-3 shadow">
-        <div class="align-items-center d-flex gap-3"><i class="fs-1 fa-regular fa-comment-dots"></i>
+    <div class="col-md-4 col-sm-12 my-2">
+        <div class=" align-items-center d-flex gap-3 rounded p-4 shadow"><i
+                class="icon-bg fs-1 fa-regular fa-comment-dots"></i>
             <div class="text-start">
-                <h3>999-123-1234 </h3>
-                <p>Call Anytime</p>
+                <h3 style="
+        font-size: 19px;
+        margin: 0;
+    ">550 FA Tower, , IL, USA</h3>
+                <p style=" margin: 0;color: #64646b; ">Our Location</p>
             </div>
         </div>
     </div>
-</section>
 
+</section>
 
 
 <section class="row mx-bog-scn my-5">
@@ -96,6 +115,4 @@
     </div>
 
 </section>
-
-
 @endsection

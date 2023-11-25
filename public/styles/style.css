@@ -124,32 +124,14 @@ html {
 }
 
 
-.floating-img:hover {
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-bottom: 3px;
 
-}
 
-@keyframes floating {
-    0% {
-        transform: translate(0, 0px);
-    }
 
-    50% {
-        transform: translate(0, 15px);
-    }
-
-    100% {
-        transform: translate(0, -0px);
-    }
-}
 
 .footer-list {
     font-size: 14px;
 }
+
 
 
 .custom-input-field {
@@ -219,11 +201,93 @@ input[type=number]:focus,
     border-radius: 27px;
 }
 
+.icon-bg {
+    color: #EC3737;
+    background: #ecedf3;
+    padding: 11px 11px;
+    border-radius: 50%;
+
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: #fc9922;
+    border-radius: 50%;
+}
+
+
+/* animation css */
+
+
+
+.floating-img:hover {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-bottom: 3px;
+
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@keyframes floatFromLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.float-from-left-animation {
+    animation: floatFromLeft 1s ease-out;
+}
+
+/* Keyframes for the alternative animation */
+@keyframes floatFromLeftAlternative {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.float-from-right-animation {
+    animation: floatFromLeftAlternative 2s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
 
 /* For screens smaller than 768 pixels (typical smartphones) */
 @media only screen and (max-width: 767px) {
-
-
     .search-box-conatain {
         padding: 0;
     }
@@ -247,11 +311,11 @@ input[type=number]:focus,
     }
 
     .img-ad {
-        width: 200px;
+        width: 168px;
+        max-width: 180px;
         margin-top: 10px;
-        height: 145px;
-        border-radius: 17px;
-        align-items: center;
+        height: 130px;
+        border-radius: 14px;
         text-align: center;
     }
 
@@ -283,7 +347,6 @@ input[type=number]:focus,
     }
 
     .chek-visa {
-
         border-radius: 0px 0px 0px 0px !important;
         padding: 20px 46px;
         margin-top: 0px;
@@ -310,9 +373,31 @@ input[type=number]:focus,
         margin-left: 0px;
         margin-right: 0px;
     }
+
+    .my-mbl {
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    .my-mbl p {
+        margin: 0;
+    }
+
+    .contact-info {
+        position: absolute;
+        left: 40px;
+
+    }
 }
 
+
+
 @media (min-width:1025px) {
+    .contact-info {
+        position: absolute;
+        left: 49px;
+    }
+
     .mx-bog-scn {
         margin-left: 50px;
         margin-right: 50px;
