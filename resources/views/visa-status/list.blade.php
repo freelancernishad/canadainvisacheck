@@ -15,8 +15,10 @@
 
     @foreach($visaCheck as $value)
         <div class="listItem">
-            <a href="{{ url('visa-status/'.$value->passport_no) }}">
-                <img style="width: 300px;" src="{{ asset('storage/images/'.$value->image) }}" alt="">
+            <a class="text-center" href="{{ url('visa-status/'.$value->passport_no) }}">
+                <div>
+                    <img style="width: 300px;" src="{{ asset('storage/images/'.$value->image) }}" alt="">
+                </div>
                 <h1 class="text-dark text-decoration-none text-uppercase">{{ $value->passport_no }}</h1>
             </a>
             <p class="text-uppercase">Welcome In Canada visa service NAME {{ $value->name }} FATHER NAME {{ $value->father_name }} MOTHER NAME {{ $value->mother_name }} DATE OF BIRTH {{ $value->d_o_b }} PASSPORT NO {{ $value->passport_no }} GMAIL {{ $value->gmail }} NATIONAL ID NO {{ $value->national_id_no }} PRESENT ADDRESS {{ $value->present_address }} PERMANENT ADDRESS {{ $value->permanent_address }} CONTACT NO {{ $value->contact_no }} JOB {{ $value->job }} JOB CATEGORY {{ $value->job_category }} DATE OF ISSUE {{ $value->date_of_issue }}

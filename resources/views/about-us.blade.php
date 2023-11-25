@@ -74,25 +74,33 @@
 
 <section style="background-color: #20408F;" class="fw-bold mx-auto my-5 row text-white w-100">
     <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
-        style="font-size: 55px; line-height: 55px;">
-        <span id="experienceId" class="number ">0</span> + <br>
-        <span style="font-size: 16px;"> Years of Experience</span>
+        style="font-size: 55px;">
+        <div>
+            <span id="experienceId" class="number ">0</span> +
+        </div>
+        <span style="font-size: 13px;"> Years of Experience</span>
     </div>
     <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
-        style="font-size: 55px; line-height: 55px;">
-        <span id="movementsId" class="number ">0</span> <br>
-        <span style="font-size: 16px;"> No of Movements </span>
+        style="font-size: 55px;">
+        <div>
+            <span id="movementsId" class="number ">0</span>
+        </div>
+        <span style="font-size: 13px;"> No of Movements </span>
     </div>
 
     <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
-        style="font-size: 55px; line-height: 55px;">
-        <span id="clientsId" class="number ">0</span> <br>
-        <span style="font-size: 16px;"> Our Clients </span>
+        style="font-size: 55px;">
+        <div>
+            <span id="clientsId" class="number ">0</span>
+        </div>
+        <span style="font-size: 13px;"> Our Clients </span>
     </div>
     <div class="about-work py-4 col-6 col-md-3 col-sm-6 p-3 text-center"
-        style="font-size: 55px; line-height: 55px;">
-        <span id="satisfactionId" class="number ">0</span>% <br>
-        <span style="font-size: 16px;"> Customer Satisfaction </span>
+        style="font-size: 55px;">
+        <div>
+            <span id="satisfactionId" class="number ">0</span>%
+        </div>
+        <span style="font-size: 13px;"> Customer Satisfaction </span>
     </div>
 </section>
 
