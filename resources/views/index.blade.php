@@ -154,7 +154,8 @@
     function SearchVisa() {
         var passportNo = document.getElementById('passportNo');
         if(passportNo.value==''){
-            window.location.href = '/visa-status'
+            alert('Passport No is required!');
+            // window.location.href = '/visa-status'
         }else{
             window.location.href = '/visa-status?s='+passportNo.value;
         }
