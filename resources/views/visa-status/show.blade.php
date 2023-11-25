@@ -74,11 +74,6 @@ table.informaionTable tr td {
     <h4 class="informationTitle mb-3">Your Information</h4>
 
 
-    <div class="text-center">
-        @foreach ($visaCheck->visaCheckDocuments as $file)
-        <img width="100%" class="mb-3" src="{{ asset('storage/'.$file->file_path) }}" alt="">
-        @endforeach
-    </div>
 
 
 
@@ -176,6 +171,15 @@ table.informaionTable tr td {
 
     </table>
     <p class="borderAfterTable"></p>
+
+
+
+    <div class="text-center">
+        @foreach ($visaCheck->visaCheckDocuments as $file)
+        <img width="100%" class="mb-3" src="{{ asset('storage/'.$file->file_path) }}" alt="">
+        @endforeach
+    </div>
+
 
     <a href="{{ url()->previous() }}">
         <h4 class="informationTitle mb-3"> Go Back</h4>

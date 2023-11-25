@@ -47,12 +47,12 @@
                     style="">
 
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/Team-1-1.png') }}" alt="" style="">
+                    src="{{ asset('images/about1.jpg') }}" alt="" style="">
 
             </div>
             <div class="d-flex flex-column col-md-6 new-class">
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/MexicansinCanada-1.png') }}" alt="">
+                    src="{{ asset('images/about2.jpg') }}" alt="">
 
                 <img class="floating-img img-ad"
                     src="{{ asset('images/Team-1-1.png') }}" alt="">
@@ -98,7 +98,7 @@
         <div class="textalign">
             <span class="fs-4 fw-bolder text-warning">........</span>
         </div>
-        <h1 class="fw-bold mb-4" style="color: #0f3186;">Have Any Questions? <br />
+        <h1 class="fw-bold mb-4 textalign" style="color: #0f3186;">Have Any Questions? <br />
             Let’s Start To Talk
         </h1>
 

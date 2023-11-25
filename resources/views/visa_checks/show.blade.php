@@ -6,6 +6,16 @@
     <div class="container">
         <h2 class="my-4">Visa Check Details</h2>
 
+
+        <div class="clientDetails text-center my-5 py-5">
+
+            <h5 class="text-uppercase">{{ $visaCheck->name }}</h5>
+            <div class="clientImage position-relative">
+                <img style="width: 150px; border-radius: 10px;" src="{{ asset('storage/images/'.$visaCheck->image) }}" alt="">
+            </div>
+
+        </div>
+
         <div class="card mb-3">
             <div class="card-body">
                 <h5 class="card-title">Name: {{ $visaCheck->name }}</h5>
@@ -23,6 +33,16 @@
                 <p class="card-text"><strong>Job:</strong> {{ $visaCheck->job }}</p>
                 <p class="card-text"><strong>Job Category:</strong> {{ $visaCheck->job_category }}</p>
                 <p class="card-text"><strong>Date of Issue:</strong> {{ $visaCheck->date_of_issue }}</p>
+
+
+
+    <div class="text-center">
+        @foreach ($visaCheck->visaCheckDocuments as $file)
+        <img width="100%" class="mb-3" src="{{ asset('storage/'.$file->file_path) }}" alt="">
+        @endforeach
+    </div>
+
+
 
                 <a href="{{ route('visa_checks.index') }}" class="btn btn-primary mt-3">Back</a>
             </div>

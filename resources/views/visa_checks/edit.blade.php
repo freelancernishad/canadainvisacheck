@@ -15,10 +15,19 @@
                 <input type="text" class="form-control" id="name" name="name" value="{{ $visaCheck->name }}" required>
             </div>
 
+
+{{--
             <div class="mb-3">
                 <label for="image" class="form-label">Image</label>
                 <input type="text" class="form-control" id="image" name="image" value="{{ $visaCheck->image }}">
+            </div> --}}
+
+
+            <div class="mb-3">
+                <label for="image" class="form-label">Image</label>
+                <input type="file" class="form-control" id="image" name="image">
             </div>
+
 
             <div class="mb-3">
                 <label for="status" class="form-label">Status</label>
@@ -84,6 +93,15 @@
                 <label for="date_of_issue" class="form-label">Date of Issue</label>
                 <input type="date" class="form-control" id="date_of_issue" name="date_of_issue" value="{{ $visaCheck->date_of_issue }}" required>
             </div>
+
+
+
+            <div class="mb-3">
+                <label for="files" class="form-label">Upload Documents</label>
+                <input type="file" class="form-control" id="files" name="files[]" multiple accept=".jpeg, .jpg, .png, .pdf">
+            </div>
+
+
 
             <button type="submit" class="btn btn-primary">Update</button>
             <a href="{{ route('visa_checks.index') }}" class="btn btn-secondary">Cancel</a>

@@ -28,7 +28,7 @@
         <div class="col-md-6 row mx-auto">
             <div class="d-flex flex-column col-md-6 new-class" style=" ">
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/MexicansinCanada-1.png') }}" alt=""
+                    src="{{ asset('images/about1.jpg') }}" alt=""
                     style="">
 
                 <img class="floating-img img-ad"
@@ -40,7 +40,7 @@
                     src="{{ asset('images/MexicansinCanada-1.png') }}" alt="">
 
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/Team-1-1.png') }}" alt="">
+                    src="{{ asset('images/about2.jpg') }}" alt="">
 
             </div>
 
