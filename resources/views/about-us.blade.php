@@ -28,19 +28,19 @@
         <div class="col-md-6 row mx-auto">
             <div class="d-flex flex-column col-md-6 new-class" style=" ">
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/about1.jpg') }}" alt=""
+                    src="{{ asset('images/istockphoto-498308014-612x612.jpg') }}" alt=""
                     style="">
 
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/Team-1-1.png') }}" alt="" style="">
+                    src="{{ asset('images/au_citizen1.jpg') }}" alt="" style="">
 
             </div>
             <div class="d-flex flex-column col-md-6 new-class">
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/MexicansinCanada-1.png') }}" alt="">
+                    src="{{ asset('images/images (1).jpeg') }}" alt="">
 
                 <img class="floating-img img-ad"
-                    src="{{ asset('images/about2.jpg') }}" alt="">
+                    src="{{ asset('images/images.jpeg') }}" alt="">
 
             </div>
 
