@@ -7,7 +7,7 @@
             <div class=" row mx-bog-scn">
                 <div class="col-md-6 col-sm-12 btn-text-dream float-from-right-animation">
                     <h1 class="text-white">Fulfill Your Dream</h1>
-                    <p class="text-white">We help people to apply for a visa in Canada. We handle all the hassles of
+                    <p class="text-white">We help people to apply for a visa in Australia. We handle all the hassles of
                         submitting
                         documents.
                     </p>
