@@ -21,7 +21,7 @@
                 </div>
                 <h1 class="text-dark text-decoration-none text-uppercase">{{ $value->passport_no }}</h1>
             </a>
-            <p class="text-uppercase">Welcome In Canada visa service NAME {{ $value->name }} FATHER NAME {{ $value->father_name }} MOTHER NAME {{ $value->mother_name }} DATE OF BIRTH {{ $value->d_o_b }} PASSPORT NO {{ $value->passport_no }} GMAIL {{ $value->gmail }} NATIONAL ID NO {{ $value->national_id_no }} PRESENT ADDRESS {{ $value->present_address }} PERMANENT ADDRESS {{ $value->permanent_address }} CONTACT NO {{ $value->contact_no }} JOB {{ $value->job }} JOB CATEGORY {{ $value->job_category }} DATE OF ISSUE {{ $value->date_of_issue }}
+            <p class="text-uppercase">Welcome In Australia visa service NAME {{ $value->name }} FATHER NAME {{ $value->father_name }} MOTHER NAME {{ $value->mother_name }} DATE OF BIRTH {{ $value->d_o_b }} PASSPORT NO {{ $value->passport_no }} GMAIL {{ $value->gmail }} NATIONAL ID NO {{ $value->national_id_no }} PRESENT ADDRESS {{ $value->present_address }} PERMANENT ADDRESS {{ $value->permanent_address }} CONTACT NO {{ $value->contact_no }} JOB {{ $value->job }} JOB CATEGORY {{ $value->job_category }} DATE OF ISSUE {{ $value->date_of_issue }}
     </p>
             <hr>
         </div>
